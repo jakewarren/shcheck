@@ -46,8 +46,8 @@ Optional flags:
 
 ## Acknowledgements
 
-[@tracam](http://github.com/tracam) - thanks for his contributions
-[meliot/shcheck](https://github.com/meliot/shcheck) - inspiration for the output format
+[@tracam](http://github.com/tracam) - thanks for his contributions  
+[meliot/shcheck](https://github.com/meliot/shcheck) - inspiration for the output format  
 [riramar/hsecscan](https://github.com/riramar/hsecscan) - inspiration for the verbose output format
 
 ## Changes
