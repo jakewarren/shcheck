@@ -56,8 +56,7 @@ func checkGox() error {
 
 // get the latest tag
 func version() string {
-	//versionString, err := sh.Output("bash", "-c", `git describe --tags --abbrev=0 2>/dev/null || (git describe --always --long --dirty 2>/dev/null |tr '\n' '-';date +%Y.%m.%d)`)
-	versionString, err := sh.Output("bash", "-c", `git describe --always --dirty 2>/dev/null |tr '\n' '-';date +%Y.%m.%d`)
+	versionString, err := sh.Output("bash", "-c", `git describe --always --dirty 2>/dev/null || date +%Y.%m.%d`)
 	if err != nil {
 		mg.Fatal(1, "error getting the version information")
 	}
